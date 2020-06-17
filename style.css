@@ -210,7 +210,7 @@ h2{
     }
 
     @media only screen and (max-width: 414px){
-      .column{
+      /* .column{
         width: 80%;
         height: 35%;
         display: block;
@@ -219,7 +219,7 @@ h2{
         align-content: center;
         margin-left: 10%;
         margin-bottom: 2%;
-      }
+      } */
       .column img{
          width:150px ;
          height: 200px;
@@ -234,9 +234,9 @@ h2{
         font-size: 30px;
         margin-bottom: 5%;
       }
-
+/* 
       [class*="col-"] {
-        width: 50%; }
+        width: 50%; }  queda en 2 columnas*/
 
         .modal img{
           height: 300px;
@@ -250,7 +250,7 @@ h2{
           width: 90%;
 
         }
-        #tres{
+        /* #tres{
          
           border-left: black 2px solid;
 
@@ -275,5 +275,17 @@ h2{
           font-size: 25px;
           
           
+        } */ /* para que quede en dos columnas  */
+
+        .column img{
+          height: 200px;
+          width: 150px;
+          object-fit: cover;
+          border: black solid 3px;
+          
+          
+        }
+        .column{
+         padding:0px 1px!important;
         }
     }
