@@ -209,7 +209,7 @@ h2{
       .col-12 {width: 100%;}
     }
 
-    @media only screen and (max-width: 411px){
+    @media only screen and (max-width: 414px){
       .column{
         width: 80%;
         height: 35%;
