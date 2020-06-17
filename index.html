@@ -1,0 +1,113 @@
+
+      <!DOCTYPE html>
+<html>
+  <head>
+  <title> Gatitos y sus personalidades</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+
+<link rel="shortcut icon" href="https://img.icons8.com/dusk/2x/pixel-cat.png" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+</head>
+<body>
+<script src="Untitled.js"></script>
+
+
+<h2 style="text-align:center">Gatitos y sus personalidades</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="https://www.eltiempo.com/files/image_640_428/files/crop/uploads/2019/02/20/5c6d9cba97c41.r_1565272310692.0-148-1080-684.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://dam.ngenespanol.com/wp-content/uploads/2019/02/gatos-caja-2.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/facebook_share/public/purina-porque-lloran-los-gatos.png?itok=uSFVOkcn" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div class="row" id="item">
+  <div class="col-6" id="uno">
+    <h2>Curiosidades:</h2>
+    <p>
+      <li>
+        <i class="fas fa-heart"></i>Cuando nacen, todos los gatos tienen los ojos azules (oscuro), que luego cambian según avanzan en edad.</li>
+
+       <li> <i class="fas fa-heart"></i>Maúllan solo a los humanos; entre ellos se comunican con otros sonidos parecidos o mediante contacto físico. </li>
+      
+       <li><i class="fas fa-heart"></i>El agua es un componente esencial para mantener su temperatura corporal, por eso es importante que se hidrate continuamente. </li>
+      
+       <li><i class="fas fa-heart"></i> Pueden llegar a emitir unos 100 sonidos diferentes. </li>
+      
+       <li><i class="fas fa-heart"></i> Los gatos duermen mucho: en total, unas 16 horas de media al día. </li>
+      
+       <li> <i class="fas fa-heart"></i>Al lamerse todo el cuerpo es normal que generan bolas de pelo. Para prevenir y evitar que esto sea un problema, es bueno proporcionarles hierba gatera y malta, que además les suele encantar. </li>
+  </div>
+  <div class="col-6">
+    <h2>Personalidad:</h2>
+    <p>
+      <li>
+        <i class="fas fa-heart"></i>Frívolo: es el gato más asustadizo, el típico que sale disparado del sofá al ver que llegan invitados a casa. Se caracteriza por ser muy nervioso.
+       
+        </li>
+
+       <li><i class="fas fa-heart"></i> Extrovertido: es el llamado gato curioso. Les encanta establecer relaciones con su alrededor. Juegan con sus juguetes y liberan mucha energía, ¡cuidado con su aburrimiento, porque pueden destrozar muebles! Además, les encanta estar en el jardín y en la calle, por lo que es crucial llevar controles de desparasitación para evitar que contagien a tu familia.
+         
+         </li>
+      
+       <li><i class="fas fa-heart"></i>Espontáneo: se caracteriza por reaccionar ante distintas situaciones de manera diferente. Puede llegar a ser ansioso o todo lo contrario, según el día.
+         
+       </li>
+      
+       <li> <i class="fas fa-heart"></i> Amistoso: es cariñoso, duerme contigo y disfruta estando en tu espacio personal  </li>
+      
+      
+  </div>
+
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="https://www.eltiempo.com/files/image_640_428/files/crop/uploads/2019/02/20/5c6d9cba97c41.r_1565272310692.0-148-1080-684.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://dam.ngenespanol.com/wp-content/uploads/2019/02/gatos-caja-2.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/facebook_share/public/purina-porque-lloran-los-gatos.png?itok=uSFVOkcn" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+
+      
+    </div>
+
+
+   
+
+
+</body>
+</html>
