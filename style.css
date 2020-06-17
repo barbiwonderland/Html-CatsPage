@@ -236,7 +236,7 @@ h2{
       }
 
       [class*="col-"] {
-        width: 100%; }
+        width: 50%; }
 
         .modal img{
           height: 300px;
@@ -250,8 +250,30 @@ h2{
           width: 90%;
 
         }
-        #uno{
+        #tres{
          
-          display: inline-flexbox
+          border-left: black 2px solid;
+
+        }
+        #item{
+
+          line-height: 20px;
+          margin:5%;
+          text-align: initial;
+          background-color: whitesmoke;
+          list-style: none;
+          padding:0%;
+          font-size: 15px;
+          height: 100%;
+          border:black solid 3px
+
+        }
+        .row h2{
+          text-decoration: underline;
+          text-align: left;
+          margin-bottom: 4%;
+          font-size: 25px;
+          
+          
         }
     }
