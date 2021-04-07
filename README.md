@@ -7,4 +7,6 @@ Utilicé Firebase como hosting.
 ### Enlace a pagina Web:
 [https://personalidadesgatitos.web.app/](https://personalidadesgatitos.web.app/ "https://personalidadesgatitos.web.app/")
 
+https://github.com/barbiwonderland/Html-CatsPage/issues/1#issue-851897860
+
 ------------
