@@ -1,6 +1,6 @@
 ###  Pagina HTML 
 
-Segunda pagina web ,aplicando conceptos HTML Y CSS , focalizandome en la temática de columnas y media queries.
+Segunda pagina web ,realizada en HTML Y CSS , focalizandome en la comprensión de columnas y media queries.
 
 Utilicé Firebase como hosting.
 
